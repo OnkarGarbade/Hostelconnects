@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HostelConnect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0055aa;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #003366;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    .notice {
+      background-color: #e3f2fd;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 5px solid #007acc;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+    }
+    form button {
+      background-color: #0055aa;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HostelConnect</h1>
+    <p>Your one-stop solution for all hostel updates</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Mess Menu</a>
+    <a href="#notice">Notices</a>
+    <a href="#complaint">Complaint Form</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>
+      Welcome to Hostel Connect<br>
+    Dr. B. R. Ambedkar Govt. Boys Hotsel Yerwada
+    </h2>
+    <p>This website helps hostel students stay updated with daily notices, mess menu, and more. Designed for simplicity and usefulness!</p>
+  </section>
+
+ <section id="menu">
+  <h2>Weekly Mess Menu (भोजन तक्ता)</h2>
+  <div style="overflow-x:auto;">
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>अ.क्र</th>
+          <th>वार</th>
+          <th>नाश्ता<br>(वेळ सकाळी 6 ते 9:30)</th>
+          <th>दुपारचे जेवण<br>(वेळ दुपारी 12:00 ते 2:00)</th>
+          <th>रात्रीचे जेवण<br>(वेळ रात्री 7:00 ते 9:30)</th>
+          <th>शेरा</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>सोमवार</td>
+          <td>शाबुदाणा चिवडा, दूध, अंडा, फळ, सफरचंद, कॉर्नफ्लेक्स</td>
+          <td>मटकी उसळ/भाजी, भात, चपाती, पापड, लोणचं</td>
+          <td>तूर डाळ आमटी/भाजी, भात, चपाती, कोशिंबीर</td>
+          <td>दूध 200ml, साखर 15gm, गूळ 15gm</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>मंगळवार</td>
+          <td>बटाटेवडा सांडव, दूध, फळ, सफरचंद, कॉर्नफ्लेक्स</td>
+          <td>मटकी उसळ, भात, चपाती, पापड, लोणचं</td>
+          <td>उडीद डाळ आमटी/भाजी, भात, चपाती</td>
+          <td>भाजी 2, पालेभाज्या</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>बुधवार</td>
+          <td>मिक्स पाव, दूध, फळ, अंडा, कॉर्नफ्लेक्स</td>
+          <td>तांदळाची भाकरी, भाजी, चटणी, भात, कोशिंबीर</td>
+          <td>मासूर आमटी, भात, चपाती, भाजी</td>
+          <td>दूध विद्यार्थ्यांना, खीर 250gm</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>गुरुवार</td>
+          <td>उपमा/शिरा, दूध, अंडा, फळ, कॉर्नफ्लेक्स</td>
+          <td>मूग डाळ आमटी, भात, चपाती, भाजी, कोशिंबीर</td>
+          <td>कडधान्य भाजी, भात, पालेभाजी, कोशिंबीर</td>
+          <td>अतिरिक्त पालेभाजी, लोणचं</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>शुक्रवार</td>
+          <td>इडली/मेदा वडा सांबार, दूध, फळ, कॉर्नफ्लेक्स</td>
+          <td>राजमा उसळ/भाजी, भात, चपाती</td>
+          <td>तूर डाळ आमटी, भात, चपाती, पालेभाजी</td>
+          <td>कडधान्य कोशिंबीर</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>शनिवार</td>
+          <td>पाव भाजी, दूध, अंडा, फळ, कॉर्नफ्लेक्स</td>
+          <td>उडीद डाळ आमटी, भात, चपाती, भाजी</td>
+          <td>मटकी उसळ, भात, चपाती, कोशिंबीर</td>
+          <td>फळ 150gm</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>रविवार</td>
+          <td>पोहे/उपमा, दूध, अंडा, फळ, कॉर्नफ्लेक्स</td>
+          <td>कडधान्य भाजी, भात, चपाती, कोशिंबीर</td>
+          <td>पिठलं, भात, भाजी, लोणचं</td>
+          <td>विशेष जेवण</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+  <section id="notice">
+    <h2>Latest Notices</h2>
+    <div class="notice">Various Programs/Competition/Sports & Other activities are orginesed in hotel from 4Apr to 14Apr</div
+  </section>
+
+  <section id="complaint">
+    <h2>Complaint Form</h2>
+    <form onsubmit="alert('Complaint Submitted!'); return false;">
+      <input type="text" placeholder="Your Name" required />
+      <input type="text" placeholder="Room Number" required />
+      <input type="text" placeholder="Complaint Type" required />
+      <textarea placeholder="Describe your issue" rows="4" required></textarea>
+      <button type="submit">Submit Complaint</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Warden:</strong> Mr. Rahul Tangade</p>
+    <p><strong>House Master</strong> Mrs. Jayashreee Mohole</p>
+    <p><strong>Office:</strong> 9 AM to 5 PM |</p>
+    <p><strong>Emergency:</strong> 112 / 100</p>
+  </section>
+
+  <footer>
+    &copy; 2025 HostelConnect | All Rights Reserved
+  </footer>
+
+</body>
+</html>
